@@ -45,10 +45,15 @@ body {
 #login{
     cursor: pointer;
     border: 0px solid darkblue;
-    padding: 5px;
+    padding: 10px 30px;
     background-color: darkblue;
     border-radius: 20px;
     width: 100px;
+    color: wheat;
+}
+
+#login a{
+    text-decoration: none;
     color: wheat;
 }
 
@@ -60,6 +65,21 @@ body {
     width: 500px;
 }
 
+.signup{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    width: 295px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #666;
+    margin: 20px 0;
+    padding-bottom: 3px; 
+}
 
 
 
