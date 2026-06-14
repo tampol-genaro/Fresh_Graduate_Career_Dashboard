@@ -69,11 +69,11 @@ body {
     color: wheat;
 }
 
+/* dont have an account */
 .signup{
     display: flex;
     justify-content: flex-start;
     margin: 10px;
-    
 }
 
 .divider {
