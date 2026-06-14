@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../Blue\ gradient\ white\ linear\ .jpeg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;
+}
+
+#emailid{
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: solid 1px #87CEEB;
+    border-radius: 20px;
+    background-color: #87CEEB;
+}
+
+
+#password{
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: solid 1px #87CEEB;
+    border-radius: 20px;
+    background-color: #87CEEB;
+}
+
+.button{
+  display: flex;
+  justify-content: flex-start; 
+  margin: 5px; 
+  width: 300px;
+}
+
+#login{
+    cursor: pointer;
+    border: 0px solid darkblue;
+    padding: 5px;
+    background-color: darkblue;
+    border-radius: 20px;
+    width: 100px;
+    color: wheat;
+}
+
+.button p{
+    color: black;
+    display: flex;
+    justify-content: flex-end; 
+    margin: 5px; 
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
