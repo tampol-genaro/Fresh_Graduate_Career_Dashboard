@@ -6,14 +6,16 @@ body {
     margin: 0;
 }
 
+/* this is for the title or the "Login" */
 .email{
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items:  center; 
     justify-content: center;
     height: 100vh;
 }
 
+/* this is for the email id and form */
 #emailid{
     width: 300px;
     padding: 10px;
@@ -24,7 +26,7 @@ body {
     background-color: #87CEEB;
 }
 
-
+/* this is for the password and form */
 #password{
     width: 300px;
     padding: 10px;
@@ -35,13 +37,21 @@ body {
     background-color: #87CEEB;
 }
 
-.button{
+/* login button */
+.button {
   display: flex;
   justify-content: flex-start; 
   margin: 5px; 
   width: 300px;
 }
 
+/* forgot password button */
+.forgot{
+    display: flex;
+    justify-content: center;
+}
+
+/* login design */
 #login{
     cursor: pointer;
     border: 0px solid darkblue;
@@ -50,26 +60,20 @@ body {
     border-radius: 20px;
     width: 100px;
     color: wheat;
+
 }
 
+/* clicked login button */
 #login a{
     text-decoration: none;
     color: wheat;
-}
-
-.button p{
-    color: black;
-    display: flex;
-    justify-content: flex-end; 
-    margin: 5px; 
-    width: 500px;
 }
 
 .signup{
     display: flex;
     justify-content: flex-start;
     margin: 10px;
-    width: 295px;
+    
 }
 
 .divider {
