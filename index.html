@@ -11,7 +11,7 @@
     <header class="email">
     <h1>Login</h1>
 
-    <form>
+    <form id="nameform" action="homepage.html">
     <label for="emailid"><b>Email ID</b></label> 
     <br/>
     <input type="email" placeholder="Enter Email" name="email" id="emailid" required>
@@ -21,28 +21,40 @@
     <label for="password"><b>Password</b></label> 
     <br/>
     <input type="password" placeholder="Enter Password" name="password" id="password" required>
-</form>
+
         
-            <div class="button">
-                <button type="login" form="nameform" value="Submit" id="login"> 
-                    <a href="homepage.html">Login</a></button>
+        <div class="button">
+                <button type="login" value="Submit" id="login" onclick="javascript:alert('Hello World!')"> 
+                    Login
+                </button>
+
+                    <script>
+            document.getElementById("namefrom");
+            input.addEventListener("keypress", function(event) {
+                if (event.key === "Enter") {
+                event.preventDefault();
+            console.log("Enter pressed, form submitting...");
+        }
+            });
                 
+                
+                
+</script>
+
             </div>
 
             <div class="forgot">
-                <a href="#forgotpassword" id="forgot">
+                <a href="forgotpassword.html" id="forgot">
                     <p>Forgot Password?</p></a>
             </div>
 
 
             <div class="signup">
-            <p>Don't have an account? <a href="#signup">Sign Up</a> </p>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a> </p>
             </div>
 
+        </form>
 
-            <div class="divider">
-                Or Login With
-            </div>
     </header>
           
 
