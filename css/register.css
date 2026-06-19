@@ -8,18 +8,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    background-position: center;
-}
-
-.login-container{
-    border: 1px solid #e0e0e0;
-    padding: clamp(1.5rem, 5vw, 2.5rem);
-    width: 100%;  
-    max-width: 480px; 
-    background: #fff;
-    border-radius: 10px;
-    
-
 }
 
 h1{
@@ -27,7 +15,7 @@ h1{
     font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
-#login-form input{
+#signup-form input{
   width: 100%;
   padding: 12px;
   margin: 8px 0;
@@ -37,7 +25,7 @@ h1{
   box-sizing: border-box;
 }
 
-#login-form input[type="password"]{
+#signup-form input[type="password"]{
   padding-right: 40px;
 }
 
@@ -47,7 +35,7 @@ h1{
     margin: 8px 0;
 }
 
-#login-form button{
+#signup-form button{
     width: 100%;
     background-color: lightblue;
     border: none;
@@ -63,6 +51,15 @@ h1{
     cursor: pointer;
     color: lightgray;
 }
+.password-field j{
+    position: absolute;
+    right: 12px;
+    top: 20%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: lightgray;
+}
+
 
 #register-btn{
     
@@ -82,22 +79,8 @@ h1{
 
 
 
-
-
-
-
-
-
 @media (max-width: 768px) {
     body {
         background-attachment: scroll;
     }
 }
-
-
-
-
-
-
-
-
