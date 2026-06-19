@@ -1,0 +1,50 @@
+
+ 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;           
+    margin: 0;
+    background-image: url(../Logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-container{
+    border: 2px solid white;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+#login-form input{
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+#login-form button{
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
