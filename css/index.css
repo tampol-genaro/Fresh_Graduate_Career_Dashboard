@@ -31,7 +31,6 @@ h1{
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  
 }
 
 #login-form button{
@@ -41,7 +40,7 @@ h1{
     border-radius: 4px;
 }
 
-.fa-eye{
+.login-container i{
     position: absolute;
     left: 62.5%;
     top: 52.5%;
