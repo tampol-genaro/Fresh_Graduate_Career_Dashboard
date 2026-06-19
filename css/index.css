@@ -12,10 +12,11 @@ body{
 }
 
 .login-container{
-    border: 2px solid white;
+    border: 1px solid white;
     padding: 30px;
     background: #fff;
     border-radius: 10px;
+    width: 30%;
 
 }
 
