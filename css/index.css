@@ -41,6 +41,20 @@ h1{
     border-radius: 4px;
 }
 
+.fa-eye{
+    position: absolute;
+    right: 515px;
+    bottom: 325px;
+    cursor: pointer;
+    color: lightgray;
+}
+
+#register-btn{
+    color: lightblue;
+    text-decoration: none;
+
+}
+
 
 
 
