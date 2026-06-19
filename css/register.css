@@ -1,86 +1,14 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    min-height: 100vh;           
-    padding: 1.5rem;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{           
     background-image: url(../Logo.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
-}
-
-h1{
-    text-align: center;
-    font-size: clamp(1.5rem, 4vw, 2rem);
-}
-
-#signup-form input{
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-#signup-form input[type="password"]{
-  padding-right: 40px;
-}
-
-.password-field{
-    position: relative;
-    display: block;
-    margin: 8px 0;
-}
-
-#signup-form button{
-    width: 100%;
-    background-color: lightblue;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-}
-
-.password-field i{
-    position: absolute;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: lightgray;
-}
-.password-field j{
-    position: absolute;
-    right: 12px;
-    top: 20%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: lightgray;
-}
-
-
-#register-btn{
-    
-    color: lightblue;
-    text-decoration: none;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 768px) {
-    body {
-        background-attachment: scroll;
-    }
-}

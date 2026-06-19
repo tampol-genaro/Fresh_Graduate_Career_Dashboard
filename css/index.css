@@ -1,30 +1,33 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    min-height: 100vh;           
-    padding: 1.5rem;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{           
     background-image: url(../Logo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .login-container{
-    border: 1px solid #e0e0e0;
-    padding: clamp(1.5rem, 5vw, 2.5rem);
-    width: 100%;  
-    max-width: 480px; 
-    background: #fff;
-    border-radius: 10px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+}
 
+#login-form{
+    border: none;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
 }
 
 h1{
     text-align: center;
-    font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
 #login-form input{
@@ -35,40 +38,28 @@ h1{
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-}
-
-#login-form input[type="password"]{
-  padding-right: 40px;
-}
-
-.password-field{
-    position: relative;
-    display: block;
-    margin: 8px 0;
+  background-color: #e0e0e0;
 }
 
 #login-form button{
     width: 100%;
-    background-color: lightblue;
+    background-color: #728FCE;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
 }
 
-.password-field i{
-    position: absolute;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: lightgray;
+#login-form button:hover{
+    background-color: #5875B5;
+}
+
+#login-form button{
+    color: #FAFAFA;
 }
 
 #register-btn{
-    
-    color: lightblue;
+    color: #5A86AD;
     text-decoration: none;
-
 }
 
 
