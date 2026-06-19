@@ -43,8 +43,8 @@ h1{
 
 .fa-eye{
     position: absolute;
-    right: 515px;
-    bottom: 325px;
+    left: 62.5%;
+    top: 52.5%;
     cursor: pointer;
     color: lightgray;
 }
